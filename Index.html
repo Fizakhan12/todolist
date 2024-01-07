@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+</head>
+<body>
+    <div id="todo-app">
+        <div id="maindiv">
+            <div id="heading">
+                <h2 >Todo List     <span><i class="fa-solid fa-list" style="color: #000000;"></i></span></h2>
+            </div>
+            <div id="notify"></div>
+            <div id="addbox">
+                <input type="text" id="inputtext" placeholder="Add a Task">
+                <button onclick="add()" id="button1"><span><i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>  Add</button><br><br>
+            </div>
+            
+            <div id="searchbox">
+                <input type="text" id="search" placeholder="Search a Sentence">
+                <button onclick="search()" id="button2"><span><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></span> Search</button>
+            </div>
+            <div id="addlist">
+                <input type="text" id="listInput" placeholder="Enter list name">
+                <button onclick="addlist()" id="button3"><span><i class="fa-solid fa-align-left" style="color: #ffffff;"></i></span>    Add List</button>
+            </div>
+            <div id="listitems">
+                <ul id="list" >
+                    
+                </ul>              
+            </div>
+            <select id="options" style="display: none;">
+                <option value="option1">Course Work Task</option>
+                <option value="option2">Upcoming Task</option>
+            </select>
+
+            <!-- <ul class="lists" >
+                <li>Course Work Task</li>
+            </ul>
+            <ul class="lists" >
+                <li>Upcoming Task</li>
+            </ul> -->
+
+                <!-- <label>
+                    <input type="checkbox" id="toggle">
+                    <span class="moving_circle"></span>
+                </label> -->
+                
+        </div>
+    </div>
+    <div id="todolist">
+
+    </div>
+    <div id="tables">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #153677, #4e085f);
+
+}
+#todo-app{
+    margin: 100px auto 20px;
+    padding: 20px;
+    height: 70%;
+    width: 50%;
+    border-radius: 10px;
+    background: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: white;
+
+}
+
+#maindiv{
+    padding: 20px auto 50px;
+    background: white;
+    box-sizing: border-box;
+    
+     
+}
+#heading{
+    text-align: center;
+    padding: 15px 0px 15px;
+    
+    
+}
+#addbox{
+    display: flex;
+    margin-bottom: 10px;
+    
+    
+    
+}
+#searchbox{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+#addlist{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+#inputtext{
+    width: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.129);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+#search{
+    width: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.129);
+    border-radius: 20px;
+    padding: 7px;
+}
+#listInput{
+    width: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.129);
+    border-radius: 20px;
+    padding: 7px;
+}
+#button1{
+    background-color: #2e0249de;
+    width: 30%;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+}
+#button2{
+    background-color: #2e0249de;
+    width: 30%;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#button3{
+    background-color: #2e0249de;
+    width: 30%;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#button1:hover{
+    background-color: #2E0249;
+}
+#button2:hover{
+    background-color: #2E0249;
+}
+
+button{
+      width: 70px;
+      height: 30px;
+      margin-left: 10px;
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+li{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    position: relative;
+
+}
+
+
+#notify{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+
+.but{
+    display: none;
+}
+
+.delete-btn{
+    background-color: rgb(0, 0, 0);
+    width: 7%;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+ul li button{
+    position: relative;
+    right: 0px;
+}
+#select{
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.delete-btn:hover{
+    border-radius: 10px;
+}
+
+label{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+}
+#toggle{
+    display: none;
+}
+.moving_circle{
+    position: absolute;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 100px;
+    margin: 5px;
+    transition: 0.2s;
+}
+#toggle:checked + .moving_circle{
+    transform: translateX(40px);
+}
+
+/* ----------------------------------- */
+#tables{
+    display: flex;
+}
+.maindiv2{
+    margin: 100px 30px;
+    padding: 20px;
+    height: 70%;
+    width: 20%;
+    border-radius: 10px;
+    background: white;
+    box-sizing: border-box;
+    background-color: #FFB534;
+}
+
+.box2_ul{
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.innerlistdiv{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sublist{
+    width: 70%;
+    padding-left: 4px;
+    background-color: #c0f2b0;
+    border: none;
+}
+.sublistbutton{
+    background-color: #c0f2b0;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 0px;
+
+}
+.sublistbutton:hover{
+    background-color: #c0f2b07b;
+    border: 1.7px solid rgba(0, 0, 0, 0.836);
+
+
+}
+.box2_para{
+    font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+@media (max-width:500px) {
+    
+    #addbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #searchbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #notify{
+        text-align: center;
+    }
+    #inputtext{
+        margin: 10px ;
+    }
+    #search{
+        margin: 10px ;
+    }
+    
+    
+}
